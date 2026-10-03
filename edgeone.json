@@ -4,12 +4,6 @@
   "buildCommand": "pnpm run build",
   "outputDirectory": "dist",
   "nodeVersion": "22.21.1",
-  "rewrites": [
-    {
-      "source": "/*",
-      "destination": "/index.html"
-    }
-  ],
   "headers": [
     {
       "source": "/assets/*",
